@@ -1,4 +1,6 @@
 # Define plot_pop()
+import pandas as pd
+import matplotlib as plt
 def plot_pop(filename, country_code):
 
     # Initialize reader object: urb_pop_reader
